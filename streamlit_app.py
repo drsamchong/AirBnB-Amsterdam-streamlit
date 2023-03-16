@@ -43,16 +43,8 @@ fig = px.scatter_mapbox(
     lon="Longitude",
     color="Location",
     color_discrete_sequence=[
-        "#0068c9",
-        "#83c9ff",
-        "#ff2b2b",
-        "#ffabab",
-        "#29b09d",
-        "#7defa1",
-        "#ff8700",
-        "#ffd16a",
-        "#6d3fc0",
-        "#d5dae5",
+        "blue",
+        "red"
     ],    
     zoom=11,
     height=500,
